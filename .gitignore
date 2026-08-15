@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Real Amazon data & generated reports — never commit client data
+sample_data/*
+!sample_data/.gitkeep
+*.xlsx
+*_Generated.xlsx
+Bleeders_Report.xlsx
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
